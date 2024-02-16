@@ -4,9 +4,13 @@ namespace Cqrs_architecture.Dispatcher
 {
     public class CommandDispatcher : ICommandDispatcher
     {
-        public Task<TCommand> Dispatch<TCommand, TCommandResut>(TCommand command, CancellationToken cancellationToken)
+        private readonly IServiceProvider _serviceProvider;
+        public CommandDispatcher(IServiceProvider serviceProvider) => _serviceProvider = serviceProvider;
+
+        public Task<TCommandResult> Dispatch<TCommand, TCommandResult>(TCommand command, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            var handler = _serviceProvider.GetRequiredService<ICommandHandler<TCommand, TCommandResult>>();
+            return handler.Handle(command, cancellationToken);
         }
     }
 }

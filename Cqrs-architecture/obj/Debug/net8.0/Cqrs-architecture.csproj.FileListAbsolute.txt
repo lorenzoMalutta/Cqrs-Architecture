@@ -127,3 +127,4 @@ C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.pdb
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.genruntimeconfig.cache
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\ref\Cqrs-architecture.dll
+C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.sourcelink.json

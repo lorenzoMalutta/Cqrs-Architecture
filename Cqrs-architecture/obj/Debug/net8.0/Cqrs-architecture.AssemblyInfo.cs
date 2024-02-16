@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cqrs-architecture")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55af6ac1db8bc90625f95b8cafd38805c4ce605c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cqrs-architecture")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cqrs-architecture")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

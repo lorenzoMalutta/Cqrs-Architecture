@@ -4,9 +4,13 @@ namespace Cqrs_architecture.Dispatcher
 {
     public class QueryDispatcher : IQueryDispatcher
     {
-        public Task<TQueryResult> Dispatch<TQuery, TQueryResult>(TQuery query, CancellationToken cancellation)
+        private readonly IServiceProvider _serviceProvider;
+        public QueryDispatcher(IServiceProvider serviceProvider) => _serviceProvider = serviceProvider;
+
+        public Task<TQueryResult> Dispatch<TQuery, TQueryResult>(TQuery query, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            var handler = _serviceProvider.GetRequiredService<IQueryHandler<TQuery, TQueryResult>>();
+            return handler.Handle(query, cancellationToken);
         }
     }
 }
