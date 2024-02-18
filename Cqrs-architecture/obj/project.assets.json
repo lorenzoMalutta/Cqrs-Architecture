@@ -1181,6 +1181,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
           "Utils": "1.0.0"
         },
         "compile": {
@@ -1188,6 +1190,19 @@
         },
         "runtime": {
           "bin/placeholder/Command.dll": {}
+        }
+      },
+      "Query/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Query.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Query.dll": {}
         }
       },
       "Utils/1.0.0": {
@@ -3222,6 +3237,11 @@
       "path": "../Command/Command.csproj",
       "msbuildProject": "../Command/Command.csproj"
     },
+    "Query/1.0.0": {
+      "type": "project",
+      "path": "../Query/Query.csproj",
+      "msbuildProject": "../Query/Query.csproj"
+    },
     "Utils/1.0.0": {
       "type": "project",
       "path": "../Utils/Utils.csproj",
@@ -3234,8 +3254,10 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.2",
       "Microsoft.EntityFrameworkCore >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.2",
+      "Microsoft.EntityFrameworkCore.Relational >= 8.0.2",
       "Microsoft.Extensions.Identity.Core >= 8.0.2",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.0",
+      "Query >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "Utils >= 1.0.0"
     ]
@@ -3246,9 +3268,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Cqrs-architecture.csproj",
-      "projectName": "Cqrs-architecture",
-      "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Cqrs-architecture.csproj",
+      "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Api.csproj",
+      "projectName": "Api",
+      "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Api.csproj",
       "packagesPath": "C:\\Users\\loren\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\obj\\",
       "projectStyle": "PackageReference",
@@ -3269,6 +3291,9 @@
           "projectReferences": {
             "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Command\\Command.csproj": {
               "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Command\\Command.csproj"
+            },
+            "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Query\\Query.csproj": {
+              "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Query\\Query.csproj"
             },
             "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\Utils.csproj": {
               "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\Utils.csproj"
@@ -3300,6 +3325,10 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[8.0.2, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[8.0.2, )"
           },

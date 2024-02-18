@@ -1,6 +1,0 @@
-@Cqrs_architecture_HostAddress = http://localhost:5027
-
-GET {{Cqrs_architecture_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

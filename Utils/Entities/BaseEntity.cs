@@ -1,4 +1,6 @@
-﻿namespace Utils.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Utils.Entities
 {
     public class BaseEntity
     {
@@ -7,8 +9,8 @@
             Id = Guid.NewGuid();
         }
 
+        [Key]
         public Guid Id { get; set; }
-
         public string? UserIn { get; set; }
         public string? UserUpd { get; set; }
         public DateTime? DateUtcIn { get; set; }

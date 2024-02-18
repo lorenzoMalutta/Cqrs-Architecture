@@ -45,22 +45,22 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 //DbContext
-builder.Services.AddDbContext<SecurityDbContext>(options =>
-{
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"), c => c.MigrationsAssembly("Cqrs_architecture"));
-});
-
-builder.Services.AddDbContext<CommandDbContext>(options =>
-{
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"), c => c.MigrationsAssembly("Cqrs_architecture"));
-});
 
 // Register DbContextOptions<BaseDbContext>
 builder.Services.AddDbContext<BaseDbContext>(options =>
 {
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"), c => c.MigrationsAssembly("Cqrs_architecture"));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"), c => c.MigrationsAssembly("Api"));
 });
 
+builder.Services.AddDbContext<CommandDbContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"), c => c.MigrationsAssembly("Api"));
+});
+
+builder.Services.AddDbContext<SecurityDbContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"), c => c.MigrationsAssembly("Api"));
+});
 
 // Dependency Injection
 builder.Services.ResolveDependencies();

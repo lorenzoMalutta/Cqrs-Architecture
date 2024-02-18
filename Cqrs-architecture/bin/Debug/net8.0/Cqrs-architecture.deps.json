@@ -12,8 +12,10 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.2",
           "Microsoft.EntityFrameworkCore": "8.0.2",
           "Microsoft.EntityFrameworkCore.Design": "8.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
           "Microsoft.Extensions.Identity.Core": "8.0.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
+          "Query": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0",
           "Utils": "1.0.0"
         },
@@ -700,10 +702,20 @@
       "System.Threading.Channels/6.0.0": {},
       "Command/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
           "Utils": "1.0.0"
         },
         "runtime": {
           "Command.dll": {}
+        }
+      },
+      "Query/1.0.0": {
+        "dependencies": {
+          "Utils": "1.0.0"
+        },
+        "runtime": {
+          "Query.dll": {}
         }
       },
       "Utils/1.0.0": {
@@ -1146,6 +1158,11 @@
       "hashPath": "system.threading.channels.6.0.0.nupkg.sha512"
     },
     "Command/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Query/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

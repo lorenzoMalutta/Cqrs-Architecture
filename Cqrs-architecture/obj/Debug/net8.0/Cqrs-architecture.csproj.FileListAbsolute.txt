@@ -5,12 +5,6 @@ C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-102\Cqrs-architecture\obj\Debug\ne
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-102\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.csproj.CoreCompileInputs.cache
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-102\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-102\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.csproj.AssemblyReference.cache
-C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.AssemblyInfoInputs.cache
-C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.AssemblyInfo.cs
-C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.csproj.CoreCompileInputs.cache
-C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\bin\Debug\net8.0\appsettings.json
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\bin\Debug\net8.0\Cqrs-architecture.exe
@@ -110,9 +104,19 @@ C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\bin
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\bin\Debug\net8.0\Command.dll
+C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\bin\Debug\net8.0\Query.dll
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\bin\Debug\net8.0\Utils.dll
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\bin\Debug\net8.0\Command.pdb
+C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\bin\Debug\net8.0\Query.pdb
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\bin\Debug\net8.0\Utils.pdb
+C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.csproj.AssemblyReference.cache
+C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.AssemblyInfoInputs.cache
+C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.AssemblyInfo.cs
+C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.csproj.CoreCompileInputs.cache
+C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.sourcelink.json
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\staticwebassets\msbuild.Cqrs-architecture.Microsoft.AspNetCore.StaticWebAssets.props
@@ -127,4 +131,3 @@ C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.pdb
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.genruntimeconfig.cache
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\ref\Cqrs-architecture.dll
-C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Cqrs-architecture\obj\Debug\net8.0\Cqrs-architecture.sourcelink.json

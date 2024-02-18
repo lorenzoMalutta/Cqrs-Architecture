@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Query")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02a10573e3df706876772c4576b831e3c570e016")]
 [assembly: System.Reflection.AssemblyProductAttribute("Query")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Query")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,6 +11,7 @@ C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Utils\obj\Debug\net8.
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Utils\obj\Debug\net8.0\Utils.AssemblyInfoInputs.cache
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Utils\obj\Debug\net8.0\Utils.AssemblyInfo.cs
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Utils\obj\Debug\net8.0\Utils.csproj.CoreCompileInputs.cache
+C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Utils\obj\Debug\net8.0\Utils.sourcelink.json
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Utils\obj\Debug\net8.0\Utils.dll
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Utils\obj\Debug\net8.0\refint\Utils.dll
 C:\Users\loren\OneDrive\Documents\GitHub\Cqrs-architecture\Utils\obj\Debug\net8.0\Utils.pdb

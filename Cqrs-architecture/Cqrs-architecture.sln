@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cqrs-architecture", "Cqrs-architecture.csproj", "{9BF55280-8AA3-485C-8C7B-C5854F134E27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api.csproj", "{9BF55280-8AA3-485C-8C7B-C5854F134E27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "..\Utils\Utils.csproj", "{4E0D913E-EB79-4A2B-891A-CDC4F4BBBF81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils", "..\Utils\Utils.csproj", "{4E0D913E-EB79-4A2B-891A-CDC4F4BBBF81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "..\Command\Command.csproj", "{A105FAA5-84F3-4275-B109-DA4CA83B6F5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "..\Command\Command.csproj", "{A105FAA5-84F3-4275-B109-DA4CA83B6F5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query", "..\Query\Query.csproj", "{E06CC942-D79A-479B-9077-3C39136F5C88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Query", "..\Query\Query.csproj", "{E06CC942-D79A-479B-9077-3C39136F5C88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
