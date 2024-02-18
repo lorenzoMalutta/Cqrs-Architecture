@@ -1,4 +1,4 @@
-﻿namespace Cqrs_architecture.Common
+﻿namespace Command.Common
 {
     public interface ICommandHandler<in TCommand, TCommandResult>
     {

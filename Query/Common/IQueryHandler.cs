@@ -1,4 +1,4 @@
-﻿namespace Cqrs_architecture.Common
+﻿namespace Query.Common
 {
     public interface IQueryHandler<in TQuery, TQueryResult>
     {

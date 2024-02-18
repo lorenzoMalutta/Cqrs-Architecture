@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rAlnNnPJQYoLYxmeGlejcuVzgFbIpQwkipwUvDXI+W7Dzq56aQOy0gnc3DwndphTxEu4YkGRzuTsYDkSGq2axQ==",
+  "dgSpecHash": "W1+5emG0rW5iLbB10b/B6Xnp0AN+B9BYEq8Ie50T9kQWExAxk7O5Hv4nHGh5okI4w2/ljgRS2JeTOuBH/AkD8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Cqrs-architecture.csproj",
+  "projectFilePath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\loren\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.2\\microsoft.aspnetcore.authentication.jwtbearer.8.0.2.nupkg.sha512",

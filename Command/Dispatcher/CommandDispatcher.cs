@@ -1,6 +1,7 @@
-﻿using Cqrs_architecture.Common;
+﻿using Command.Common;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace Cqrs_architecture.Dispatcher
+namespace Command.Dispatcher
 {
     public class CommandDispatcher : ICommandDispatcher
     {

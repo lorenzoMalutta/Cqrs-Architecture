@@ -3246,9 +3246,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Cqrs-architecture.csproj",
-      "projectName": "Cqrs-architecture",
-      "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Cqrs-architecture.csproj",
+      "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Api.csproj",
+      "projectName": "Api",
+      "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Api.csproj",
       "packagesPath": "C:\\Users\\loren\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\obj\\",
       "projectStyle": "PackageReference",

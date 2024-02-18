@@ -1,6 +1,7 @@
-﻿using Cqrs_architecture.Common;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Query.Common;
 
-namespace Cqrs_architecture.Dispatcher
+namespace Query.Dispatcher
 {
     public class QueryDispatcher : IQueryDispatcher
     {
