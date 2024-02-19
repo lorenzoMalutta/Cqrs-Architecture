@@ -1,95 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Api.csproj": {}
+    "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Command\\Command.csproj": {
+    "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Command\\Command.csproj",
-        "projectName": "Command",
-        "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Command\\Command.csproj",
-        "packagesPath": "C:\\Users\\loren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Command\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\loren\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\Utils.csproj": {
-                "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\Utils.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Api.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\Api.csproj",
+        "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\loren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Cqrs-architecture\\obj\\",
+        "outputPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\loren\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -106,14 +28,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Command\\Command.csproj": {
-                "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Command\\Command.csproj"
+              "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Command\\Command.csproj": {
+                "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Command\\Command.csproj"
               },
-              "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Query\\Query.csproj": {
-                "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Query\\Query.csproj"
+              "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Query\\Query.csproj": {
+                "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Query\\Query.csproj"
               },
-              "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\Utils.csproj": {
-                "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\Utils.csproj"
+              "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Utils\\Utils.csproj": {
+                "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Utils\\Utils.csproj"
               }
             }
           }
@@ -185,14 +107,14 @@
         }
       }
     },
-    "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Query\\Query.csproj": {
+    "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Command\\Command.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Query\\Query.csproj",
-        "projectName": "Query",
-        "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Query\\Query.csproj",
+        "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Command\\Command.csproj",
+        "projectName": "Command",
+        "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Command\\Command.csproj",
         "packagesPath": "C:\\Users\\loren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Query\\obj\\",
+        "outputPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Command\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\loren\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -209,8 +131,86 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\Utils.csproj": {
-                "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\Utils.csproj"
+              "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Utils\\Utils.csproj": {
+                "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Utils\\Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Query\\Query.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Query\\Query.csproj",
+        "projectName": "Query",
+        "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Query\\Query.csproj",
+        "packagesPath": "C:\\Users\\loren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Query\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\loren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Utils\\Utils.csproj": {
+                "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Utils\\Utils.csproj"
               }
             }
           }
@@ -247,14 +247,14 @@
         }
       }
     },
-    "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\Utils.csproj": {
+    "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Utils\\Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\Utils.csproj",
+        "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Utils\\Utils.csproj",
         "projectName": "Utils",
-        "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\Utils.csproj",
+        "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Utils\\Utils.csproj",
         "packagesPath": "C:\\Users\\loren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\obj\\",
+        "outputPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\loren\\AppData\\Roaming\\NuGet\\NuGet.Config",

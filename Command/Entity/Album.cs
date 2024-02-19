@@ -13,9 +13,7 @@ namespace Command.Entity
         public DateOnly ReleaseDate { get; set; }
 
         [Required]
-        [RegularExpression(@"^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$", ErrorMessage = "Please enter a valid URL.")]
         public string ImageUrl { get; set; }
-
 
         [Required]
         public Guid ArtistId { get; set; }

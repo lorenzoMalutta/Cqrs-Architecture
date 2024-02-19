@@ -4,7 +4,7 @@ using Command.Common;
 using Command.Entity;
 using Command.Service.Interface;
 
-namespace Command.Handler
+namespace Command.Handler.ArtistHandler
 {
     public class ArtistUpdateHandler : ICommandHandler<UpdateArtistRequest, UpdateArtistResponse>
     {

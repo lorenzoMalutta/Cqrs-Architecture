@@ -1,9 +1,12 @@
 ﻿using Command.Commands.Artist.Requests;
 using Command.Commands.Artist.Responses;
+using Command.Commands.Music.Requests;
+using Command.Commands.Music.Responses;
 using Command.Common;
 using Command.Dispatcher;
 using Command.Entity;
-using Command.Handler;
+using Command.Handler.ArtistHandler;
+using Command.Handler.MusicHandler;
 using Command.Repository;
 using Command.Service;
 using Command.Service.Interface;
@@ -34,6 +37,14 @@ namespace Cqrs_architecture.Configurations
             services.AddScoped<ICommandHandler<CreateArtistRequest, CreateArtistResponse>, ArtistCreateHandler>();
             services.AddScoped<ICommandHandler<DeleteArtistRequest, DeleteArtistResponse>, ArtistDeleteHandler>();
             services.AddScoped<ICommandHandler<UpdateArtistRequest, UpdateArtistResponse>, ArtistUpdateHandler>();
+
+            //Music
+            services.AddScoped<IMusicService, MusicService>();
+            services.AddScoped<IBaseService<Music>, BaseService<Music>>();
+            services.AddScoped<ICommandRepository<Music>, CommandRepository<Music>>();
+            services.AddScoped<ICommandHandler<CreateMusicRequest, CreateMusicResponse>, MusicCreateHandler>();
+            services.AddScoped<ICommandHandler<DeleteMusicRequest, DeleteMusicResponse>, MusicDeleteHandler>();
+            services.AddScoped<ICommandHandler<UpdateMusicRequest, UpdateMusicResponse>, MusicUpdateHandler>();
             //End
             return services;
         }

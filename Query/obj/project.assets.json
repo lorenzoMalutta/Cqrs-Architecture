@@ -1146,11 +1146,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Query\\Query.csproj",
+      "projectUniqueName": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Query\\Query.csproj",
       "projectName": "Query",
-      "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Query\\Query.csproj",
+      "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Query\\Query.csproj",
       "packagesPath": "C:\\Users\\loren\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Query\\obj\\",
+      "outputPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Query\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\loren\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1167,8 +1167,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\Utils.csproj": {
-              "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-architecture\\Utils\\Utils.csproj"
+            "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Utils\\Utils.csproj": {
+              "projectPath": "C:\\Users\\loren\\OneDrive\\Documents\\GitHub\\Cqrs-Architecture\\Utils\\Utils.csproj"
             }
           }
         }
